@@ -1,0 +1,21 @@
+
+
+merubah struktur tabel mengunakan migration harus terlebih dahulu menginstall
+	"composer require doctrine/dbal"
+
+
+kalo tidak bisa migration
+	buka file AppServiceProvider.php
+	tambahkan
+	/AppServiceProviders.php di letakkan pada function boot :
+	“Schema::defaultStringLength(191);”
+	dan tambahkan pada bawah namespace dengan script :
+	use Illuminate\Support\Facades\Schema;
+
+
+kalo download project laravel dari github jangan lupa:
+	1. "composer install"
+	2.  copy isi file env.example ke file baru dengan nama .env
+	3.  kemudian "php artisan key:generate"
+	4.  selesai
+
