@@ -8,7 +8,7 @@ kalo tidak bisa migration
 	buka file AppServiceProvider.php
 	tambahkan
 	/AppServiceProviders.php di letakkan pada function boot :
-	ìSchema::defaultStringLength(191);î
+	‚ÄúSchema::defaultStringLength(191);‚Äù
 	dan tambahkan pada bawah namespace dengan script :
 	use Illuminate\Support\Facades\Schema;
 
@@ -19,3 +19,7 @@ kalo download project laravel dari github jangan lupa:
 	3.  kemudian "php artisan key:generate"
 	4.  selesai
 
+cara mengatasi error pull dan push di komputer yang berbeda
+	1. git pull origin master --allow-unrelated-histories
+	2. kemudian tinggal pull atau push
+	3. selesai
