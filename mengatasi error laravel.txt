@@ -17,7 +17,14 @@ kalo download project laravel dari github jangan lupa:
 	1. "composer install" atau "composer update"
 	2.  copy isi file env.example ke file baru dengan nama .env
 	3.  kemudian "php artisan key:generate"
-	4.  selesai
+	4.  buat nama database di file .env dan di phpmyadmin namanya harus sama
+	5.  buka file AppServiceProvider.php tambahkan
+		/AppServiceProviders.php di letakkan pada function boot :
+		“Schema::defaultStringLength(191);”
+		dan tambahkan pada bawah namespace dengan script :
+		use Illuminate\Support\Facades\Schema;
+	6.  selesai
+
 
 cara mengatasi error pull dan push di komputer yang berbeda
 	1. git pull origin master --allow-unrelated-histories
