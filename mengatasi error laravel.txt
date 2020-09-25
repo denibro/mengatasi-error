@@ -14,7 +14,7 @@ kalo tidak bisa migration
 
 
 kalo download project laravel dari github jangan lupa:
-	1. "composer install"
+	1. "composer install" atau "composer update"
 	2.  copy isi file env.example ke file baru dengan nama .env
 	3.  kemudian "php artisan key:generate"
 	4.  selesai
