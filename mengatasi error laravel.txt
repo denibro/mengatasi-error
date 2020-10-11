@@ -30,3 +30,8 @@ cara mengatasi error pull dan push di komputer yang berbeda
 	1. git pull origin master --allow-unrelated-histories
 	2. kemudian tinggal pull atau push
 	3. selesai
+	
+	
+** cara mengatasi file manager error di vidio "Laravel CRUD Bootstrap add post part 29"
+	1. gunakan, composer require laravel/helpers
+	2. enjoy
