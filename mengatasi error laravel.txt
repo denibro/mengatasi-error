@@ -35,3 +35,9 @@ cara mengatasi error pull dan push di komputer yang berbeda
 ** cara mengatasi file manager error di vidio "Laravel CRUD Bootstrap add post part 29"
 	1. gunakan, composer require laravel/helpers
 	2. enjoy
+
+** cara mengatasi PHP fatal error : allowed memory size atau composer require yajra/laravel-datatables-oracle:"~9.0" atau yajra datatables
+	1. buka file php.ini didirektori xampp/php/php.ini
+	2. rubah nilai di memory_limit menjadi lebih besar dari sebelummnya contoh 2000m
+	3. selesai
+	
