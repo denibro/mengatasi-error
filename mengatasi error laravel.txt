@@ -27,9 +27,10 @@ kalo download project laravel dari github jangan lupa:
 
 
 cara mengatasi error pull dan push di komputer yang berbeda
-	1. git pull origin master --allow-unrelated-histories
-	2. kemudian tinggal pull atau push
-	3. selesai
+	1. git remote add origin https://nama git hub (contoh : https://github.com/denibro/laravel-crud.git)
+	2. git pull origin master --allow-unrelated-histories
+	3. kemudian tinggal pull atau push
+	4. selesai
 	
 	
 ** cara mengatasi file manager error di vidio "Laravel CRUD Bootstrap add post part 29"
